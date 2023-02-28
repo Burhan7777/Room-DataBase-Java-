@@ -26,11 +26,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.InsertDataActivity" />
-        <provider
-            android:name=".contentprovider.MyContentProvider"
-            android:authorities="com.example.room.mycontentprovider"
-            android:enabled="true"
-            android:exported="true"></provider>
+
     </application>
 
 </manifest>
